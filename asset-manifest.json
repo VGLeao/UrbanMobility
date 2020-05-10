@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/UrbanMobility/static/css/main.a25159f4.chunk.css",
+    "main.js": "/UrbanMobility/static/js/main.d30d67d3.chunk.js",
+    "main.js.map": "/UrbanMobility/static/js/main.d30d67d3.chunk.js.map",
+    "runtime-main.js": "/UrbanMobility/static/js/runtime-main.875e91cf.js",
+    "runtime-main.js.map": "/UrbanMobility/static/js/runtime-main.875e91cf.js.map",
+    "static/css/2.4dce4d4b.chunk.css": "/UrbanMobility/static/css/2.4dce4d4b.chunk.css",
+    "static/js/2.8affb6cb.chunk.js": "/UrbanMobility/static/js/2.8affb6cb.chunk.js",
+    "static/js/2.8affb6cb.chunk.js.map": "/UrbanMobility/static/js/2.8affb6cb.chunk.js.map",
+    "index.html": "/UrbanMobility/index.html",
+    "precache-manifest.f222440304d03d4fa64f1154b427e319.js": "/UrbanMobility/precache-manifest.f222440304d03d4fa64f1154b427e319.js",
+    "service-worker.js": "/UrbanMobility/service-worker.js",
+    "static/css/2.4dce4d4b.chunk.css.map": "/UrbanMobility/static/css/2.4dce4d4b.chunk.css.map",
+    "static/css/main.a25159f4.chunk.css.map": "/UrbanMobility/static/css/main.a25159f4.chunk.css.map",
+    "static/js/2.8affb6cb.chunk.js.LICENSE.txt": "/UrbanMobility/static/js/2.8affb6cb.chunk.js.LICENSE.txt",
+    "static/media/hero.css": "/UrbanMobility/static/media/hero-bg.52eb9933.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.875e91cf.js",
+    "static/css/2.4dce4d4b.chunk.css",
+    "static/js/2.8affb6cb.chunk.js",
+    "static/css/main.a25159f4.chunk.css",
+    "static/js/main.d30d67d3.chunk.js"
+  ]
+}
