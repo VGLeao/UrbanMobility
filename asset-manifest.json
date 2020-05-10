@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/UrbanMobility/static/css/main.a25159f4.chunk.css",
-    "main.js": "/UrbanMobility/static/js/main.1fd3edb7.chunk.js",
-    "main.js.map": "/UrbanMobility/static/js/main.1fd3edb7.chunk.js.map",
+    "main.js": "/UrbanMobility/static/js/main.da577fde.chunk.js",
+    "main.js.map": "/UrbanMobility/static/js/main.da577fde.chunk.js.map",
     "runtime-main.js": "/UrbanMobility/static/js/runtime-main.875e91cf.js",
     "runtime-main.js.map": "/UrbanMobility/static/js/runtime-main.875e91cf.js.map",
     "static/css/2.4dce4d4b.chunk.css": "/UrbanMobility/static/css/2.4dce4d4b.chunk.css",
-    "static/js/2.8affb6cb.chunk.js": "/UrbanMobility/static/js/2.8affb6cb.chunk.js",
-    "static/js/2.8affb6cb.chunk.js.map": "/UrbanMobility/static/js/2.8affb6cb.chunk.js.map",
+    "static/js/2.245b5747.chunk.js": "/UrbanMobility/static/js/2.245b5747.chunk.js",
+    "static/js/2.245b5747.chunk.js.map": "/UrbanMobility/static/js/2.245b5747.chunk.js.map",
     "index.html": "/UrbanMobility/index.html",
-    "precache-manifest.d74de2a6ea333bcd59f80c998245983d.js": "/UrbanMobility/precache-manifest.d74de2a6ea333bcd59f80c998245983d.js",
+    "precache-manifest.86dc3645d846b0fd97d91c083f5b290e.js": "/UrbanMobility/precache-manifest.86dc3645d846b0fd97d91c083f5b290e.js",
     "service-worker.js": "/UrbanMobility/service-worker.js",
     "static/css/2.4dce4d4b.chunk.css.map": "/UrbanMobility/static/css/2.4dce4d4b.chunk.css.map",
     "static/css/main.a25159f4.chunk.css.map": "/UrbanMobility/static/css/main.a25159f4.chunk.css.map",
-    "static/js/2.8affb6cb.chunk.js.LICENSE.txt": "/UrbanMobility/static/js/2.8affb6cb.chunk.js.LICENSE.txt",
+    "static/js/2.245b5747.chunk.js.LICENSE.txt": "/UrbanMobility/static/js/2.245b5747.chunk.js.LICENSE.txt",
     "static/media/hero.css": "/UrbanMobility/static/media/hero-bg.52eb9933.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.875e91cf.js",
     "static/css/2.4dce4d4b.chunk.css",
-    "static/js/2.8affb6cb.chunk.js",
+    "static/js/2.245b5747.chunk.js",
     "static/css/main.a25159f4.chunk.css",
-    "static/js/main.1fd3edb7.chunk.js"
+    "static/js/main.da577fde.chunk.js"
   ]
 }

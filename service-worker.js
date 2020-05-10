@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/UrbanMobility/precache-manifest.d74de2a6ea333bcd59f80c998245983d.js"
+  "/UrbanMobility/precache-manifest.86dc3645d846b0fd97d91c083f5b290e.js"
 );
 
 self.addEventListener('message', (event) => {
