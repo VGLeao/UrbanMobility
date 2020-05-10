@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/UrbanMobility/static/css/main.a25159f4.chunk.css",
-    "main.js": "/UrbanMobility/static/js/main.da577fde.chunk.js",
-    "main.js.map": "/UrbanMobility/static/js/main.da577fde.chunk.js.map",
+    "main.js": "/UrbanMobility/static/js/main.356b88b8.chunk.js",
+    "main.js.map": "/UrbanMobility/static/js/main.356b88b8.chunk.js.map",
     "runtime-main.js": "/UrbanMobility/static/js/runtime-main.875e91cf.js",
     "runtime-main.js.map": "/UrbanMobility/static/js/runtime-main.875e91cf.js.map",
     "static/css/2.4dce4d4b.chunk.css": "/UrbanMobility/static/css/2.4dce4d4b.chunk.css",
     "static/js/2.245b5747.chunk.js": "/UrbanMobility/static/js/2.245b5747.chunk.js",
     "static/js/2.245b5747.chunk.js.map": "/UrbanMobility/static/js/2.245b5747.chunk.js.map",
     "index.html": "/UrbanMobility/index.html",
-    "precache-manifest.86dc3645d846b0fd97d91c083f5b290e.js": "/UrbanMobility/precache-manifest.86dc3645d846b0fd97d91c083f5b290e.js",
+    "precache-manifest.617eda4226994117a1b2129a278baed3.js": "/UrbanMobility/precache-manifest.617eda4226994117a1b2129a278baed3.js",
     "service-worker.js": "/UrbanMobility/service-worker.js",
     "static/css/2.4dce4d4b.chunk.css.map": "/UrbanMobility/static/css/2.4dce4d4b.chunk.css.map",
     "static/css/main.a25159f4.chunk.css.map": "/UrbanMobility/static/css/main.a25159f4.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.4dce4d4b.chunk.css",
     "static/js/2.245b5747.chunk.js",
     "static/css/main.a25159f4.chunk.css",
-    "static/js/main.da577fde.chunk.js"
+    "static/js/main.356b88b8.chunk.js"
   ]
 }
