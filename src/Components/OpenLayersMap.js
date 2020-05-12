@@ -18,12 +18,17 @@ const vectorLayer = new VectorLayer({
 })
 
 class OpenLayersMap extends React.Component {
+  state = {
+
+  }
   render() {
+    
+    console.log (`cor: ${this.state.test}`);
     return (
-      <div>
-        <div id="map"></div>
-        <div></div>
-      </div>
+        <div>
+          <div id="map"></div>
+          <div>{`cor: ${this.state.test}`}</div>
+        </div>
     );
   }
   componentDidMount() {
@@ -43,12 +48,12 @@ class OpenLayersMap extends React.Component {
 
     });
 
-    let displayFeatureInfo = function (pixel) {
-      let feature = map.forEachFeatureAtPixel(pixel, function (feature) {
+    let displayFeatureInfo = (pixel) => {
+      let feature = map.forEachFeatureAtPixel(pixel, (feature) => {
         
         let test = feature.get('color')
-        console.log (`cor: ${test}`);
         
+        this.setState({test: test})
         return feature;
       });
     }
