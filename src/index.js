@@ -8,14 +8,12 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 ReactDOM.render(
-    <BrowserRouter>
-       <BrowserRouter>
+    <BrowserRouter basename={window.location.pathname || ''}>
         <Switch>
             <Route path="/" exact={true} component={App} />
             <Route path="/About" component={About} />
             <Route path="/Mappage" component={Mappage} />
         </Switch>
-    </BrowserRouter>
     </BrowserRouter>
     , document.getElementById('root'));
 
