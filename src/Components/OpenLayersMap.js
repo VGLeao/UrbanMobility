@@ -48,8 +48,8 @@ class OpenLayersMap extends React.Component {
       ],
       view: new View({
         projection: 'EPSG:4326',
-        center: [-35.7, -9.66],
-        zoom: 13
+        center: [-35.74, -9.66],
+        zoom: 14
       })
 
     });

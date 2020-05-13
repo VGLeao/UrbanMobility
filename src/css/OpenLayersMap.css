@@ -3,14 +3,13 @@
 }
 
 #map {
-    /* width: 100%; */
     margin: 0;
     padding: 0;
     height: 400px;
     box-shadow: 0 0 20px 2px #000000;
     border: 1px solid #000000
-  }
+}
 
-canvas {
-    width: 100%;
+.ol-layer {
+    left: 0px;
 }
