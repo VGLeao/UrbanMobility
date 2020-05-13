@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/Mappage.css'
+// import '../css/Mappage.css'
 import 'ol/ol.css';
 import { Map, View } from 'ol';
 import OSM from 'ol/source/OSM';
@@ -8,7 +8,7 @@ import { Vector as VectorSource } from 'ol/source';
 import { Tile as TileLayer, Vector as VectorLayer } from 'ol/layer';
 import sidewalks from './sidewalks.js';
 import sidewalkStyles from './sidewalkstyles.js';
-import '../Mappage.js'
+import '../css/OpenLayersMap.css'
 
 const vectorLayer = new VectorLayer({
   source: new VectorSource({
@@ -19,15 +19,21 @@ const vectorLayer = new VectorLayer({
 
 class OpenLayersMap extends React.Component {
   state = {
-
-  }
+    cor: "Clique para visualizar informações",
+    nota: "Clique para visualizar informações"
+  };
+  
   render() {
-    
-    console.log (`cor: ${this.state.test}`);
+    console.log (`cor: ${this.state.cor}`);
     return (
-        <div>
-          <div id="map"></div>
-          <div>{`cor: ${this.state.test}`}</div>
+        <div className="container" id="map-page-container">          
+            <div className="row align-items-center">
+              <div id="map" className="col-sm-12 col-lg-6"></div>
+              <div className="col-6 text-left">
+                <div>{`cor: ${this.state.cor}`}</div>
+                <div>{`nota: ${this.state.nota}`}</div>
+              </div>
+            </div>
         </div>
     );
   }
@@ -53,12 +59,15 @@ class OpenLayersMap extends React.Component {
         
         let test = feature.get('color')
         
-        this.setState({test: test})
+        this.setState({
+          cor: test,
+          nota: 4
+        })
         return feature;
       });
     }
 
-    map.on('pointermove', function (evt) {
+    map.on('click', function (evt) {
       displayFeatureInfo(map.getEventPixel(evt.originalEvent));
     });
   }

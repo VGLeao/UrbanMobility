@@ -12,21 +12,21 @@ function App() {
       <Hero></Hero>
       <div className="container">
         <div className="row">
-          <div className="col-3 mx-auto text-left">
+          <div className="col-lg-3 col-sm-12 mx-auto text-left">
             <h3 className="text-center mb-3">Lorem Ipsum</h3>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </div>
-          <div className="col-3 mx-auto text-left">
+          <div className="col-lg-3 col-sm-12 mx-auto text-left">
             <h3 className="text-center mb-3">Lorem Ipsum</h3>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </div>
-          <div className="col-3 mx-auto text-left">
+          <div className="col-lg-3 col-sm-12 mx-auto text-left">
             <h3 className="text- mb-3">Lorem Ipsum</h3>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
