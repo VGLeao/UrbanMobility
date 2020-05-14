@@ -5,16 +5,16 @@ import App from './App';
 import About from './About';
 import Mappage from './Mappage'
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 
 ReactDOM.render(
-    <BrowserRouter basename={window.location.pathname || ''}>
+    <HashRouter basename={window.location.pathname || ''}>
         <Switch>
             <Route path="/" exact={true} component={App} />
             <Route path="/About" component={About} />
             <Route path="/Mappage" component={Mappage} />
         </Switch>
-    </BrowserRouter>
+    </HashRouter>
     , document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

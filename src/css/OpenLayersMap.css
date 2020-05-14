@@ -2,6 +2,12 @@
     margin-top: 50px;
 }
 
+@media (max-width: 600px) {
+    #map-page-container {
+        margin-top: 0;
+    }
+}
+
 #map {
     margin: 0;
     padding: 0;
