@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8fc84a553ec235860494332ffe2e8367",
+    "revision": "4c191e95650bf23d8c61c64268fda544",
     "url": "/UrbanMobility/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/UrbanMobility/static/css/2.4dce4d4b.chunk.css"
   },
   {
-    "revision": "8bd4878464eae52358c7",
-    "url": "/UrbanMobility/static/css/main.80781e8a.chunk.css"
+    "revision": "81e0684f4dbdfaa9a96c",
+    "url": "/UrbanMobility/static/css/main.513e038d.chunk.css"
   },
   {
     "revision": "d9a7f1253b4b15a1d87b",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/UrbanMobility/static/js/2.01df8aef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8bd4878464eae52358c7",
-    "url": "/UrbanMobility/static/js/main.818ec27c.chunk.js"
+    "revision": "81e0684f4dbdfaa9a96c",
+    "url": "/UrbanMobility/static/js/main.65a3f0d9.chunk.js"
   },
   {
     "revision": "dacc6532905b91ad46ca",

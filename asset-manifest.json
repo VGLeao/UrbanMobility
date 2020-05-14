@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/UrbanMobility/static/css/main.80781e8a.chunk.css",
-    "main.js": "/UrbanMobility/static/js/main.818ec27c.chunk.js",
-    "main.js.map": "/UrbanMobility/static/js/main.818ec27c.chunk.js.map",
+    "main.css": "/UrbanMobility/static/css/main.513e038d.chunk.css",
+    "main.js": "/UrbanMobility/static/js/main.65a3f0d9.chunk.js",
+    "main.js.map": "/UrbanMobility/static/js/main.65a3f0d9.chunk.js.map",
     "runtime-main.js": "/UrbanMobility/static/js/runtime-main.875e91cf.js",
     "runtime-main.js.map": "/UrbanMobility/static/js/runtime-main.875e91cf.js.map",
     "static/css/2.4dce4d4b.chunk.css": "/UrbanMobility/static/css/2.4dce4d4b.chunk.css",
     "static/js/2.01df8aef.chunk.js": "/UrbanMobility/static/js/2.01df8aef.chunk.js",
     "static/js/2.01df8aef.chunk.js.map": "/UrbanMobility/static/js/2.01df8aef.chunk.js.map",
     "index.html": "/UrbanMobility/index.html",
-    "precache-manifest.d7dcb48b96987be956f7d6587d59fa74.js": "/UrbanMobility/precache-manifest.d7dcb48b96987be956f7d6587d59fa74.js",
+    "precache-manifest.ae9edb2e9ec15ea697f7bae8ae6814d7.js": "/UrbanMobility/precache-manifest.ae9edb2e9ec15ea697f7bae8ae6814d7.js",
     "service-worker.js": "/UrbanMobility/service-worker.js",
     "static/css/2.4dce4d4b.chunk.css.map": "/UrbanMobility/static/css/2.4dce4d4b.chunk.css.map",
-    "static/css/main.80781e8a.chunk.css.map": "/UrbanMobility/static/css/main.80781e8a.chunk.css.map",
+    "static/css/main.513e038d.chunk.css.map": "/UrbanMobility/static/css/main.513e038d.chunk.css.map",
     "static/js/2.01df8aef.chunk.js.LICENSE.txt": "/UrbanMobility/static/js/2.01df8aef.chunk.js.LICENSE.txt",
     "static/media/hero.css": "/UrbanMobility/static/media/hero-bg.52eb9933.jpg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.875e91cf.js",
     "static/css/2.4dce4d4b.chunk.css",
     "static/js/2.01df8aef.chunk.js",
-    "static/css/main.80781e8a.chunk.css",
-    "static/js/main.818ec27c.chunk.js"
+    "static/css/main.513e038d.chunk.css",
+    "static/js/main.65a3f0d9.chunk.js"
   ]
 }
