@@ -1,5 +1,4 @@
 import React from 'react';
-// import '../css/Mappage.css'
 import 'ol/ol.css';
 import { Map, View } from 'ol';
 import OSM from 'ol/source/OSM';
@@ -7,8 +6,11 @@ import { GeoJSON } from 'ol/format';
 import { Vector as VectorSource } from 'ol/source';
 import { Tile as TileLayer, Vector as VectorLayer } from 'ol/layer';
 import sidewalks from './sidewalks.js';
-import sidewalkStyles from './sidewalkstyles.js';
-import '../css/OpenLayersMap.css'
+import { sidewalkStyles, selectPointerMove, selectClick } from './sidewalkstyles.js';
+import '../css/OpenLayersMap.css';
+
+
+
 
 const vectorLayer = new VectorLayer({
   source: new VectorSource({
@@ -24,7 +26,6 @@ class OpenLayersMap extends React.Component {
   };
   
   render() {
-    console.log (`cor: ${this.state.cor}`);
     return (
         <div className="container" id="map-page-container">          
             <div className="row align-items-center">
@@ -54,23 +55,24 @@ class OpenLayersMap extends React.Component {
 
     });
 
+    map.addInteraction(selectPointerMove);
+    map.addInteraction(selectClick);
+    
     let displayFeatureInfo = (pixel) => {
       let feature = map.forEachFeatureAtPixel(pixel, (feature) => {
-        
-        let test = feature.get('color')
-        
         this.setState({
-          cor: test,
+          cor: feature.get('color'),
           nota: 4
         })
         return feature;
       });
     }
-
-    map.on('click', function (evt) {
+    
+    map.on('click', (evt) => {
       displayFeatureInfo(map.getEventPixel(evt.originalEvent));
+      
     });
   }
 }
 
-export default OpenLayersMap;
+export { OpenLayersMap, vectorLayer };
