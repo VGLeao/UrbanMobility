@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c191e95650bf23d8c61c64268fda544",
+    "revision": "0c9fa5d1db585d3c135c1a4ba68c40ff",
     "url": "/UrbanMobility/index.html"
   },
   {
-    "revision": "d9a7f1253b4b15a1d87b",
+    "revision": "3b3b84f91e2eef6156f0",
     "url": "/UrbanMobility/static/css/2.4dce4d4b.chunk.css"
   },
   {
-    "revision": "81e0684f4dbdfaa9a96c",
+    "revision": "aa0d3da32251f2ac86e9",
     "url": "/UrbanMobility/static/css/main.513e038d.chunk.css"
   },
   {
-    "revision": "d9a7f1253b4b15a1d87b",
-    "url": "/UrbanMobility/static/js/2.01df8aef.chunk.js"
+    "revision": "3b3b84f91e2eef6156f0",
+    "url": "/UrbanMobility/static/js/2.2825b7bb.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/UrbanMobility/static/js/2.01df8aef.chunk.js.LICENSE.txt"
+    "url": "/UrbanMobility/static/js/2.2825b7bb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "81e0684f4dbdfaa9a96c",
-    "url": "/UrbanMobility/static/js/main.65a3f0d9.chunk.js"
+    "revision": "aa0d3da32251f2ac86e9",
+    "url": "/UrbanMobility/static/js/main.7ee70954.chunk.js"
   },
   {
     "revision": "dacc6532905b91ad46ca",
